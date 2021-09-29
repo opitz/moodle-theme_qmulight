@@ -1,0 +1,9 @@
+// Post SCSS for the theme.
+#page-content {
+  background-color: green;
+}
+
+body.pagelayout-login {
+  background-image: url([[pix:theme_qmulight|loginbackgroundimage]]);
+  background-size: cover;
+}

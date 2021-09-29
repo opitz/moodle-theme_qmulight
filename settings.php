@@ -75,5 +75,17 @@ if ($ADMIN->fulltree) {
     $setting->set_updatedcallback('theme_reset_all_caches');
     $page->add($setting);
 
+    // Login page background setting.
+    // We use variables for readability.
+    $name = 'theme_qmulight/loginbackgroundimage';
+    $title = get_string('loginbackgroundimage', 'theme_qmulight');
+    $description = get_string('loginbackgroundimage_desc', 'theme_qmulight');
+    // This creates the new setting.
+    $setting = new admin_setting_configstoredfile($name, $title, $description, 'loginbackgroundimage');
+    // This means that theme caches will automatically be cleared when this setting is changed.
+    $setting->set_updatedcallback('theme_qmulight_update_settings_images');
+    // We always have to add the setting to a page for it to have any effect.
+    $page->add($setting);
+
     $settings->add($page);
 }
