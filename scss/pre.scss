@@ -4,14 +4,14 @@ $primary: $qmul_primary;
 $bg-qmul: $qmul_primary;
 
 // redefine stuff
-//$navbar-light-brand-color: white;
+$navbar-light-brand-color: white;
 
 .navbar-qmul {
   background-color: $bg-qmul;
-  color: white;
+//  color: white;
 }
 
 .btn-qmul {
   background-color: $bg-qmul;
-  color: white;
+//  color: white;
 }
