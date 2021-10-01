@@ -1,17 +1,13 @@
 // Pre SCSS for the QMULight theme.
 $qmul_primary: #0d3273;
 $primary: $qmul_primary;
-$bg-qmul: $qmul_primary;
+$background-qmul: $qmul_primary;
+$color-qmul: black;
+$color-light-qmul: white;
+
+// define stuff
+$qmul-border-radius: 2px;
+$qmul-tab-radius: 2px;
 
 // redefine stuff
-$navbar-light-brand-color: white;
-
-.navbar-qmul {
-  background-color: $bg-qmul;
-//  color: white;
-}
-
-.btn-qmul {
-  background-color: $bg-qmul;
-//  color: white;
-}
+$navbar-light-brand-color: $color-qmul;

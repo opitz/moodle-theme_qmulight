@@ -1,12 +1,58 @@
 // Post SCSS for the theme.
+
+.btn-qmul {
+  background-color: $background-qmul;
+  //  color: white;
+}
+
+.navbar-qmul {
+  background-color: $background-qmul;
+  //  color: white;
+}
+
 .navbar-qmul .icon {
-  color: white;
+  color: $color-light-qmul;
+}
+
+.navbar-qmul .login {
+  color: $color-light-qmul;
+}
+
+.navbar-qmul .login a {
+  color: $color-light-qmul;
 }
 
 .navbar-qmul a.dropdown-toggle {
-  color: white;
+  color: $color-light-qmul;
 }
 
 .navbar-qmul .btn {
-  color: white;
+  color: $color-light-qmul;
+}
+
+#page {
+  background-color: $gray-200;
+}
+
+.btn {
+  border-radius: $qmul-border-radius;
+}
+
+.tablink {
+  border-top-left-radius: $qmul-tab-radius;
+  border-top-right-radius: $qmul-tab-radius;
+}
+
+.badge-default {
+  background-color: $background-qmul;
+  color: $color-light-qmul;
+  border-radius: $qmul-tab-radius;
+}
+
+.badge-default a {
+  color: $color-light-qmul;
+}
+
+.card-header {
+  background-color: $background-qmul;
 }
