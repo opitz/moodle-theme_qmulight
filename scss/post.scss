@@ -49,10 +49,20 @@
   border-radius: $qmul-tab-radius;
 }
 
+.badge-info {
+  background-color: $background-qmul;
+  color: $color-light-qmul;
+  border-radius: $qmul-tab-radius;
+}
+
 .badge-default a {
   color: $color-light-qmul;
 }
 
-.card-header {
+.pagelayout-frontpage #page-header .card {
+  background-color: $background-qmul;
+}
+
+h1.card-header {
   background-color: $background-qmul;
 }
