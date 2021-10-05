@@ -1,5 +1,6 @@
 // Pre SCSS for the QMULight theme.
-$qmul_primary: #0d3273;
+//$qmul_primary: #0d3273; //QMUL CI colour
+$qmul_primary: #005a9a;   //QMplus base colour
 $primary: $qmul_primary;
 $background-qmul: $qmul_primary;
 $color-qmul: black;
