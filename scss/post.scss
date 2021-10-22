@@ -1,72 +1,86 @@
 // Post SCSS for the theme.
 
 .btn-qmul {
-  background-color: $background-qmul;
-  //  color: white;
+    background-color: $background-qmul;
+    //  color: white;
 }
 
 .navbar-qmul {
-  background-color: $background-qmul;
-  //  color: white;
+    background-color: $background-qmul;
+    //  color: white;
 }
 
 .navbar-qmul .icon {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 .navbar-qmul .login {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 .navbar-qmul .login a {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 .navbar-qmul a.dropdown-toggle {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 .navbar-qmul .btn {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 #page {
-  background-color: $gray-200;
+    background-color: $gray-200;
 }
 
 .btn {
-  border-radius: $qmul-border-radius;
+    border-radius: $qmul-border-radius;
 }
 
 .tablink {
-  border-top-left-radius: $qmul-tab-radius;
-  border-top-right-radius: $qmul-tab-radius;
+    border-top-left-radius: $qmul-tab-radius;
+    border-top-right-radius: $qmul-tab-radius;
 }
 
 .badge-default {
-  background-color: $background-qmul;
-  color: $color-light-qmul;
-  border-radius: $qmul-tab-radius;
+    background-color: $background-qmul;
+    color: $color-light-qmul;
+    border-radius: $qmul-tab-radius;
 }
 
 .badge-info {
-  background-color: $background-qmul;
-  color: $color-light-qmul;
-  border-radius: $qmul-tab-radius;
+    background-color: $background-qmul;
+    color: $color-light-qmul;
+    border-radius: $qmul-tab-radius;
 }
 
 .badge-default a {
-  color: $color-light-qmul;
+    color: $color-light-qmul;
 }
 
 .pagelayout-frontpage #page-header .card {
-  background-color: $background-qmul;
+    background-color: $background-qmul;
 }
 
 h1.card-header {
-  background-color: $background-qmul;
+    background-color: $background-qmul;
 }
 
 li.nav-icons {
-  width: 110px;
+    width: 110px;
+}
+
+.navbar a.nav-link {
+    color: $color-light-qmul !important;
+}
+
+.navbar .custom-control-label {
+    color: $color-light-qmul;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: lightgreen;
+    background-color: lightgreen;
 }
