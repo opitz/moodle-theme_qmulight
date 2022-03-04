@@ -6,9 +6,11 @@ defined('MOODLE_INTERNAL') || die();
 
 function theme_qmulight_page_init(moodle_page $page)
 {
-    global $CFG, $DB, $USER;
+    global $USER;
 
-    if ($page->pagelayout == 'mydashboard' && class_exists('\block_landingpage\landingpage')) {
+    // If you are not a guest user (id=1) and the landing pages block has been installed redirect the user to
+    // her/his landing page when trying to access the home page.
+    if ($page->pagelayout == 'frontpage' && $USER->id != 1 && class_exists('\block_landingpage\landingpage')) {
         $redir = \block_landingpage\landingpage::instance()->get_landing_page($USER);
         if ($redir) {
             redirect($redir);
